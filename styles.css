@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "flesh-wound";
+  src: url(./fonts/Flesh\ Wound.ttf);
+}
+.cabecalho {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 200px;
+  position: relative;
+  font-family: "flesh-wound";
+  color: red;
+}
+.cabecalho .logo {
+  font-size: 100px;
+  font-weight: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+.painel{
+    display: inline-block;
+    position: relative;
+    left:87%;
+}
+.painel li{
+  padding: 10px;
+  font-size: 40px;
+  list-style: none;
+}
+.link{
+  color: red;
+}
+.fa-star{
+  padding-right: 30px;
+}
+html {
+  background-image: url(./src/images/1569718.jpg);
+}
+.texto-entrada {
+  position: relative;
+  text-align: center;
+}
+.musica {
+  margin: 120px 140px;
+  display: inline-block;
+  padding: 23px;
+  background-color: rgb(122, 0, 0);
+  border-radius: 20px;
+}
+.nome-musica{
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.enfase{
+  font-size: 30px;
+  color: red;
+}
